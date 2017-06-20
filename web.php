@@ -25,4 +25,3 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('specializations','SpecializationController');
-Route::resource('specializations','SpecializationController');
